@@ -9,6 +9,14 @@
 import Foundation
 import UIKit
 
+struct WeatherTodayData: Decodable {
+    
+    var weather: [Weather]
+    var main: Main?
+    var wind: Wind?
+    var name: String?
+}
+
 struct WeatherData: Decodable {
     
     var cod: String?
@@ -32,10 +40,6 @@ struct Main: Decodable {
     var temp_min: Double?
     var temp_max: Double?
     var humidity: Double?
-    //    var pressure: Double?
-    //    var sea_level: Double?
-    //    var grnd_level: Double?
-    //    var temp_kf: Double?
 }
 
 struct Weather: Decodable {

@@ -14,6 +14,9 @@
 		17198C892191B8270050E5B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17198C872191B8270050E5B5 /* LaunchScreen.storyboard */; };
 		17198C912191D2190050E5B5 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17198C902191D2190050E5B5 /* Structs.swift */; };
 		17198C932191EB060050E5B5 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17198C922191EB060050E5B5 /* Answer.swift */; };
+		17198C952192DB490050E5B5 /* WeatherSkreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17198C942192DB490050E5B5 /* WeatherSkreenVC.swift */; };
+		17198C972192E23C0050E5B5 /* MyCitiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17198C962192E23C0050E5B5 /* MyCitiesVC.swift */; };
+		17198C992192E2C10050E5B5 /* ChooseCityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17198C982192E2C10050E5B5 /* ChooseCityVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		17198C8A2191B8270050E5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17198C902191D2190050E5B5 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		17198C922191EB060050E5B5 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		17198C942192DB490050E5B5 /* WeatherSkreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSkreenVC.swift; sourceTree = "<group>"; };
+		17198C962192E23C0050E5B5 /* MyCitiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCitiesVC.swift; sourceTree = "<group>"; };
+		17198C982192E2C10050E5B5 /* ChooseCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCityVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		17198C7D2191B8240050E5B5 /* TestParsJSON */ = {
 			isa = PBXGroup;
 			children = (
-				17198C7E2191B8240050E5B5 /* AppDelegate.swift */,
+				17198C962192E23C0050E5B5 /* MyCitiesVC.swift */,
+				17198C942192DB490050E5B5 /* WeatherSkreenVC.swift */,
 				17198C802191B8240050E5B5 /* ViewController.swift */,
 				17198C922191EB060050E5B5 /* Answer.swift */,
 				17198C902191D2190050E5B5 /* Structs.swift */,
+				17198C982192E2C10050E5B5 /* ChooseCityVC.swift */,
+				17198C7E2191B8240050E5B5 /* AppDelegate.swift */,
 				17198C822191B8240050E5B5 /* Main.storyboard */,
 				17198C852191B8270050E5B5 /* Assets.xcassets */,
 				17198C872191B8270050E5B5 /* LaunchScreen.storyboard */,
@@ -144,7 +153,10 @@
 				17198C912191D2190050E5B5 /* Structs.swift in Sources */,
 				17198C812191B8240050E5B5 /* ViewController.swift in Sources */,
 				17198C7F2191B8240050E5B5 /* AppDelegate.swift in Sources */,
+				17198C972192E23C0050E5B5 /* MyCitiesVC.swift in Sources */,
+				17198C992192E2C10050E5B5 /* ChooseCityVC.swift in Sources */,
 				17198C932191EB060050E5B5 /* Answer.swift in Sources */,
+				17198C952192DB490050E5B5 /* WeatherSkreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
